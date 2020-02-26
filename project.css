@@ -1,0 +1,557 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+.upper-section{
+	
+	width: 100%;
+	height: 60px;
+	background-color:#FD3A57;
+}
+.flag{
+	height: 70px;
+	float: right;
+	margin-right: 3%;
+}
+.login{
+	float: right;
+   font-size: 30px;
+   margin-right: 3%;
+   margin-top: 10px;
+   color: white;
+   cursor: pointer;
+   font-weight: bold;
+}
+.header{
+	width: 100%;
+	background-color: white;
+	height: 90px;
+}
+.logo{
+	height: 90px;
+	width: 17%;
+	background-image: url(logo2.png);
+	background-size: cover;
+	float: left;
+}
+.menu-bar{
+	float: right;
+	width: 70%;
+	height: 90px;
+}
+.menu-bar ul{
+	list-style: none; 
+	margin-top: 40px;
+}
+.menu-bar ul li,menu ul li a{
+	display: inline-block;
+	text-decoration: none;
+}
+.menu-bar a{
+	text-decoration: none;
+	font-size: 30px;
+	margin-left: 20px;
+	padding: 40px;
+	color: #FD5B67;
+}
+a:hover{
+	background-color: #F2F3F4;
+	color: brown;
+}
+.slider-container{
+ height: 650px;
+ width: 100%;
+}
+.booking{
+	position: relative;
+	height: 180px;
+	width: 80%;
+	background-color: #FAFAFA;
+	margin:0 auto;
+	margin-top: -65px;
+}
+.booking-tab{
+	position: absolute;
+	width: 100%;
+	height: 65px;
+	background-color: red;
+}
+.tab{
+	color: white;
+	font-size: 25px;
+	margin-top: 14px;
+	margin-left: 12px;
+}
+
+.booking-fill{
+	position: absolute;
+	height: 115px;
+	width: 100%;
+	background-color: #D8D8D8;
+	margin-top: 65px;
+}
+.from{
+	position: relative;
+	margin-left: 35px;
+	font-size: 30px;
+	bottom:-30px;
+} 
+input[type=text]{
+	position: relative;
+	bottom: -30px;
+	height: 45px;
+	width: 300px;
+	font-size: 25px;
+
+}
+.radio{
+	position: relative;
+	bottom: -30px;
+	margin-left: 30px;
+	cursor: pointer;
+}
+.button{
+	position: relative;
+	bottom: -30px;
+	margin-left: 55px;
+	font-size: 20px;
+	padding: 20px 40px;
+	background-color:  red;
+	color: white;
+	border:none;
+	cursor: pointer;
+}
+.image-folder{
+	background-color: white;
+	width: 80%;
+	position: relative;
+	height: 1966px;
+	margin: 0 auto;
+}
+.image-header{
+	
+	color:red;
+	font-size: 40px;
+	margin-top: 50px;
+}
+.right-header{
+	color: red;
+	font-size: 40px;
+	margin-top: -40px;
+	float: right;
+	cursor: pointer;
+}
+.right-header:hover{
+	text-decoration: underline;
+}
+.lukla{
+    position: relative;
+    margin-top: 30px;
+	width: 30%;
+	height: 450px;
+	background-color: white;
+}
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color:red;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+.lukla:hover .overlay {
+  height: 15%;
+  cursor:pointer;
+}
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.tribhuvan{
+    position: relative;
+    left: 495px;
+    margin-top: -450px;
+	width: 30%;
+	height: 450px;
+	background-color: white;
+}
+.over {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color:red;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+.tribhuvan:hover .over {
+  height: 15%;
+  cursor:pointer;
+}
+.textone {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.pokhara{
+    position: relative;
+    margin-top: -450px;
+	width: 30%;
+	height: 450px;
+	background-color: white;
+	float: right;
+}
+.overpokhara {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color:red;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+.pokhara:hover .overpokhara {
+  height: 15%;
+  cursor:pointer;
+}
+.texttwo {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.simara{
+    position: relative;
+    margin-top: 30px;
+	width: 30%;
+	height: 450px;
+	background-color: white;
+}
+.oversimara {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color:red;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+.simara:hover .oversimara {
+  height: 15%;
+  cursor:pointer;
+}
+.textthree {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.bharatpur{
+    position: relative;
+    left: 495px;
+    margin-top: -450px;
+	width: 30%;
+	height: 450px;
+	background-color: white;
+}
+.overbharatpur {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color:red;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+.bharatpur:hover .overbharatpur {
+  height: 15%;
+  cursor:pointer;
+}
+.textfour {
+  color:white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.jomsom{
+    position: relative;
+    margin-top: -450px;
+	width: 30%;
+	height: 450px;
+	background-color: white;
+	float: right;
+}
+.overjomsom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color:red;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+.jomsom:hover .overjomsom {
+  height:20%;
+  cursor:pointer;
+}
+.textfive {
+  color:white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.lumbini{
+    position: relative;
+    margin-top: 30px;
+	width: 30%;
+	height: 450px;
+	background-color: white;
+}
+.overlumbini {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color:red;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+.lumbini:hover .overlumbini {
+  height: 25%;
+  cursor:pointer;
+}
+.textsix {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.nepalgunj{
+    position: relative;
+    left: 495px;
+    margin-top: -450px;
+	width: 30%;
+	height: 450px;
+	background-color: white;
+}
+.overnepalgunj {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color:red;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+.nepalgunj:hover .overnepalgunj {
+  height: 25%;
+  cursor:pointer;
+}
+.textseven {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.janakpur{
+    position: relative;
+    margin-top: -450px;
+	width: 30%;
+	height: 450px;
+	background-color: white;
+	float: right;
+}
+.overjanakpur {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color:red;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+.janakpur:hover .overjanakpur {
+  height: 20%;
+  cursor:pointer;
+}
+.texteight {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.jumla{
+    position: relative;
+    margin-top: 30px;
+	width: 30%;
+	height: 450px;
+	background-color: white;
+}
+.overjumla {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color:red;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+.jumla:hover .overjumla {
+  height: 15%;
+  cursor:pointer;
+}
+.textnine {
+  color:white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.surkhet{
+    position: relative;
+    margin-top: -450px;
+    left: 495px;
+	width: 30%;
+	height: 450px;
+	background-color: white;
+}
+.oversurkhet {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color:red;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+.surkhet:hover .oversurkhet {
+  height: 15%;
+  cursor:pointer;
+}
+.textten {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.manang{
+    position: relative;
+    margin-top: -450px;
+	width: 30%;
+	height: 450px;
+	background-color: white;
+	float: right;
+}
+.overmanang {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color:red;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+.manang:hover .overmanang {
+  height: 15%;
+  cursor:pointer;
+}
+.texteleven {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.flight-information{
+	margin-top: 40px;
+	width: 100%;
+	height: 550px;
+	background-color: red;
+}
